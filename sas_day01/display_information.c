@@ -6,7 +6,7 @@ int main(){
     char name[10], surname[10], gender[10], email[50] ;
 
     printf("please enter your name\n") ;
-    scanf("%s", &name) ;
+    scanf("%s", &name) ;      
 
     printf("please enter your surname\n") ;
     scanf("%s", &surname) ;
