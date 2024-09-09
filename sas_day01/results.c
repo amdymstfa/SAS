@@ -18,5 +18,7 @@ int main(){
     printf("the product is : %.2f\n", a*b);
     printf("the quotient is : %.2f\n", a/b);
 
+    printf("thanks you !");
+
 
 }
