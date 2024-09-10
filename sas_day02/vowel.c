@@ -18,6 +18,12 @@ int main(){
     case 'i':
     case 'e':
     case 'u':
+    case 'Y':
+    case 'A':
+    case 'O':
+    case 'I':
+    case 'E':
+    case 'U':
             printf("good \n");
         break;
 
