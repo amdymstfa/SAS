@@ -24,7 +24,7 @@ int main(){
         printf("there is solution : %.2f\n", x0);
     } else if (D > 0){
         float x1 = (-b-sqrt(D))/2*a, x2 = (-b+sqrt(D))/2*a ;
-        printf("there are two solutions : %f and %f\n", x1,x2); 
+        printf("there are two solutions : %.2f and %.2f\n", x1,x2); 
     } else {
         printf("solutions does not exist on IR only on C, immaginairy") ;
     }
