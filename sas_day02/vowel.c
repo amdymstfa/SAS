@@ -17,6 +17,7 @@ int main(){
     case 'o':
     case 'i':
     case 'e':
+    case 'u':
             printf("good \n");
         break;
 
