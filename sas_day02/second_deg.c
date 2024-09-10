@@ -20,9 +20,11 @@ int main(){
     printf("delta = %.2f\n", D) ;
 
     if (D == 0) {
-        printf("there is solution : -b/2a\n");
+        float x0 = -b/2*a ;
+        printf("there is solution : %.2f\n", x0);
     } else if (D > 0){
-        printf("there are two solutions : (-b±√D)/2a\n");
+        float x1 = (-b-sqrt(D))/2*a, x2 = (-b+sqrt(D))/2*a ;
+        printf("there are two solutions : %f and %f\n", x1,x2); 
     } else {
         printf("solutions does not exist on IR only on C, immaginairy") ;
     }
