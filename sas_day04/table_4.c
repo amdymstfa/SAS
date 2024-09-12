@@ -14,6 +14,7 @@ int main(){
     int table_dim = sizeof(table)/sizeof(table[0]);
 
     int max_element = INT_MIN;
+    //int max_element = INT_MAX;
     for (int i = 0 ; i <table_dim ;i++){
         printf("please enter an element of array %d\n", i+1);
         scanf("%d", &table[i]);
@@ -23,13 +24,7 @@ int main(){
         }
         
     }
-    for (int i = 0 ; i <table_dim ;i++){
-        if (table[i]> max_element){
-            max_element = table[i] ;
-            
-        }
-        
-    }
+    
     printf("the max element is : %d\n", max_element) ;
     
     
