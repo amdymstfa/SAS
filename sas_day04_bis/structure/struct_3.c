@@ -7,13 +7,14 @@ struct rectangle
 {
     float length ;
     float width ;
-}area;
+};
 
 float area_of_rectangle(float length, float width){
     return length*width ;
 }
 
 int main(){
+    struct rectangle area;
     printf("please enter the length!\n");
     scanf("%f", &area.length);
     printf("please enter the width!\n");
