@@ -9,8 +9,11 @@ struct rectangle
     float width ;
 };
 
-float area_of_rectangle(float length, float width){
-    return length*width ;
+// float area_of_rectangle(float length, float width){
+//     return length*width ;
+// }
+float area_of_rectangle(struct rectangle area){
+    return area.length*area.width ;
 }
 
 int main(){
@@ -19,5 +22,5 @@ int main(){
     scanf("%f", &area.length);
     printf("please enter the width!\n");
     scanf("%f", &area.width);
-    printf("area : %.2f", area_of_rectangle(area.length, area.width));
+    printf("area : %.2f", area_of_rectangle(area));
 }
